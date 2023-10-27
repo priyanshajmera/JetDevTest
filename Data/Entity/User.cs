@@ -14,7 +14,7 @@ namespace Data.Entity
 
         public string Password { get; set; }
 
-        public string ResetToken { get; set; }
+        public string? ResetToken { get; set; }
 
         public DateTime? ResetTokenCreationDate { get; set; }
     }
